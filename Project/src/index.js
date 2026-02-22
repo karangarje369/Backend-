@@ -1,5 +1,6 @@
 import dns from "node:dns/promises"
 dns.setServers(["8.8.8.8","1.1.1.1"])
+
 import dbConnect from "./db/index.js";
 import dotenv from "dotenv"
 import { app } from "./app.js";
